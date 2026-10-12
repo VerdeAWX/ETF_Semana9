@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F531934-9E90-175F-78D4-6BC6A7D898C4" containerWithKeyObject="EA9A75B3-E3D3-2F58-C78A-1C35FC361CAA" localFKIndex="0DD9ACD1-FF0B-1B85-9DA8-379119D41D4F" name="Nacionalidad_Idioma_Jugador_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:22:39 UTC</createdTime>
+<generatorID>42FF4557-6780-36DB-C8F1-777D052CC279</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<referredTableLongName>Idioma_Jugador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F45ED1D6-7ECA-985B-A5EE-E6D8685C4939</referredTableID>
+<keyObject>28E5F4E3-DDA9-B207-DBF7-AFEE708BB3C0</keyObject>
+<referredKeyID>28E5F4E3-DDA9-B207-DBF7-AFEE708BB3C0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_trabajador,id_idioma</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

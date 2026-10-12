@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD6E6EFE-F7ED-75C8-92CF-A76292444E49" name="Idioma">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>EE3D90F0-39AC-A159-3215-C15EE04F19A8</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_idioma" id="6ADF3356-B1D1-D1D4-F1DF-CAC04DF87B1D">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>BA142C19-211F-D82E-7E1E-8D3855C52E21</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_idioma" id="F2E43448-6095-BB75-2C7B-D6E3562BA4BF">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>A178D433-4CBE-39BC-6F06-ECD165A00F94</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E90A7AEE-44AC-14D3-0836-C5D362DF7DB2" name="Idioma_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>3F3F7DE9-19AE-0451-2D10-1C6843FE99FB</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ADF3356-B1D1-D1D4-F1DF-CAC04DF87B1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

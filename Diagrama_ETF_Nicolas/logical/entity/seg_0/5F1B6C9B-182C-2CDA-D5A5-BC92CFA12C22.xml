@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F1B6C9B-182C-2CDA-D5A5-BC92CFA12C22" name="Personal_Planta">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:43:48 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>8670324C-15FB-71BC-A828-56669F54FCE7</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_trabajador" id="DB7E06F1-3DB7-F430-CCBB-D6CB9209E709">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:44:04 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas_trabajadas" id="5337D726-83FC-4E4E-1F4E-4D8A66B317E0">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:44:04 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_horas_extra" id="561D93CD-4BAA-4879-8539-DAD2B97A7CA9">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:44:04 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4FF90921-4F1B-6C9C-B028-5F1E2EF892FB" name="Personal_Planta PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:49:49 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB7E06F1-3DB7-F430-CCBB-D6CB9209E709</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

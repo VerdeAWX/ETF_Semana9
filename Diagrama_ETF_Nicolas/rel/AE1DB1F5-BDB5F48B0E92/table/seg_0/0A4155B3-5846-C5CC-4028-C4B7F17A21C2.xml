@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A4155B3-5846-C5CC-4028-C4B7F17A21C2" name="Historial_Club">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>8764BD5C-9498-8D10-E55A-BA9D7567C5F9</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_trabajador" id="4BD79774-0031-4975-A6CB-37F54D0039F8">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>D679FE9B-6124-EA73-3452-97A0A89DE5DB</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_club" id="1D256B6D-3D38-478C-57D0-8F5F7E4B54BD">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>7CFF852A-00EE-FD8D-25B6-B735908DDE87</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="0AA5C209-0D89-147C-F6B1-AD33AF5DDC89">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>B4688FCE-3FD9-A9BA-8D35-B8F2EF717FB9</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_termino" id="F59FA672-2EE9-20FF-F962-3C94FF8AD4D5">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>21898933-3A1B-AB00-8956-15BFE6963719</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jugador_id_trabajado" id="1FA0BB30-E691-5EBF-B6EB-E775E384FADD">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>76220C80-62C4-057D-B599-306B612250E2</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0EF0DE4-DF79-551C-A6F1-2846F92B32F9" referredColumn="21F4A791-C804-A08C-6923-6E31D9F0FF97"/>
+</associations>
+</Column>
+<Column name="Jugador_Escuela_Futbol_id_escuela" id="A977A647-0EB6-A912-E688-516C56A575F7">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>D640FD88-1E0E-6AB1-6B8E-91B9A421F836</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0EF0DE4-DF79-551C-A6F1-2846F92B32F9" referredColumn="8C71182E-B81A-CE43-9E16-4B7B7CD4987B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDC67C4B-2614-E5C5-7D60-E080BA4FB4D4" name="Historial_Club_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>18EF352C-6FE7-51AE-2C4F-5202F619A091</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BD79774-0031-4975-A6CB-37F54D0039F8"/>
+<colUsage columnID="1D256B6D-3D38-478C-57D0-8F5F7E4B54BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6CE6711-67C6-9B86-7408-1D4A315560F9" name="Historial_Club_Jugador_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>63A7DFB3-C3B2-F1D5-C987-D47C52280ABB</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FA0BB30-E691-5EBF-B6EB-E775E384FADD"/>
+<colUsage columnID="A977A647-0EB6-A912-E688-516C56A575F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

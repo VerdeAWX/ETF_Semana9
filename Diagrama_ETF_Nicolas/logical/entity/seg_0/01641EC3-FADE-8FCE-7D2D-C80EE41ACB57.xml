@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01641EC3-FADE-8FCE-7D2D-C80EE41ACB57" name="Escuela Futbol">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:55:25 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_escuela" id="84EE0201-A251-B781-B7E1-ABDAA991BF45">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:55:41 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_escuela" id="048EB0BA-F332-A3FF-1A12-0B2E6921DCA9">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:55:41 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacidad" id="A5B74735-FFB4-0146-DF46-8FC3E4D3D111">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:55:41 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fundacion" id="58960663-D871-6108-B970-4E327B0D5293">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:55:42 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47082649-BBD8-7D5C-FB0F-FF1B89FA1BD2" name="Escuela Futbol PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:56:26 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>84EE0201-A251-B781-B7E1-ABDAA991BF45</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

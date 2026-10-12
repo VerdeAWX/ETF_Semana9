@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3B76620-0D98-63A9-7E41-A395CA213687" name="Personal_Planta">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>5F1B6C9B-182C-2CDA-D5A5-BC92CFA12C22</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_trabajador" id="402A5DAE-4023-8722-FBAA-7E075BD5BDC3">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>58652A78-0A37-C3E4-CCFC-E11F541A923B</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9C54B1D-7A8E-1582-2CA9-A4B948ED9BBA" referredColumn="2C166A28-BA48-EA29-FCBF-9356E4A0898B"/>
+</associations>
+</Column>
+<Column name="id_trabajador1" id="0488F348-14D7-3239-931B-B72879EE4B07">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>DB7E06F1-3DB7-F430-CCBB-D6CB9209E709</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_trabajadas" id="DA46F797-25D6-B015-A38B-96870BB4ECCA">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>5337D726-83FC-4E4E-1F4E-4D8A66B317E0</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_horas_extra" id="601FA78C-DCAA-AB35-72B6-60037E788CD2">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>561D93CD-4BAA-4879-8539-DAD2B97A7CA9</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="754D522F-EB33-3FDB-7590-54946C7A0BE9" name="Personal_Planta_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>42DE1A79-A00A-D12A-4444-28255BBEA6CB</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="402A5DAE-4023-8722-FBAA-7E075BD5BDC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F4B95CB-5A28-BF09-CFE1-15712B2AB0C2" name="Personal_Planta_PKv1">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>4FF90921-4F1B-6C9C-B028-5F1E2EF892FB</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0488F348-14D7-3239-931B-B72879EE4B07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37D9D146-06C9-371A-03D3-E4A307C729B4" name="Personal_Planta_Trabajador_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>CD1E1C83-221C-7091-571B-FADE5460C8D8</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="402A5DAE-4023-8722-FBAA-7E075BD5BDC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

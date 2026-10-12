@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB64AFCD-33D2-6A5A-F64B-61815CF074EF" name="Nacionalidad">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:59:41 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_nacionalidad" id="B88EC37C-B773-3BFA-F470-377E19EFCE03">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:59:52 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="AD66BF3D-7892-0AD2-DF20-7F906D710028">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 01:59:52 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_trabajador" id="56AED444-BB4E-8EE2-AD77-BC7C4B8852B9">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:21:43 UTC</createdTime>
+<generatorID>3E61B002-668D-A1AB-33F7-0D9CEDC2320F</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<referedAttribute>060C7EEE-DB58-D30A-A160-12F11EDC8E64</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_idioma" id="3E38994E-46DD-15CA-D730-427C6DF2DA3B">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:21:43 UTC</createdTime>
+<generatorID>3E61B002-668D-A1AB-33F7-0D9CEDC2320F</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<referedAttribute>9110E65D-35CE-BB62-C4C5-095A38A31F9D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C6B3CBA-060C-DEE9-4B39-1E4F6C3EE6CD" name="Nacionalidad PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:00:16 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<engineerTo>
+<item key="AE1DB1F5-0E75-E417-C64D-BDB5F48B0E92" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B88EC37C-B773-3BFA-F470-377E19EFCE03</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

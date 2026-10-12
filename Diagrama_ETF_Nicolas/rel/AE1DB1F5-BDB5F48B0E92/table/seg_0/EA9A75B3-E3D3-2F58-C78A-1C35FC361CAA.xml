@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA9A75B3-E3D3-2F58-C78A-1C35FC361CAA" name="Nacionalidad">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>DB64AFCD-33D2-6A5A-F64B-61815CF074EF</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nacionalidad" id="40AB40E7-C640-1FBD-9E70-BA6CA061AD08">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>B88EC37C-B773-3BFA-F470-377E19EFCE03</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="3C11F54E-EA99-5C3F-E173-9AD45209A60F">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>AD66BF3D-7892-0AD2-DF20-7F906D710028</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Idioma_Jugador_id_trabajador" id="4E64D6AB-BDC7-C4E8-2F8F-36EEF166A502">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:22:39 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F531934-9E90-175F-78D4-6BC6A7D898C4" referredColumn="1F2796DC-38E4-21AE-FA8B-13B7E1339FE6"/>
+</associations>
+</Column>
+<Column name="Idioma_Jugador_id_idioma" id="6DB5080E-0DC7-EBDB-3A5D-3F904717DC80">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:22:39 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F531934-9E90-175F-78D4-6BC6A7D898C4" referredColumn="29317E5C-D35C-8DC8-4DA8-AFA5AAB14CFD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD7D4B22-60FB-4539-8062-0352D219D354" name="Nacionalidad_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<generatorID>8C6B3CBA-060C-DEE9-4B39-1E4F6C3EE6CD</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40AB40E7-C640-1FBD-9E70-BA6CA061AD08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DD9ACD1-FF0B-1B85-9DA8-379119D41D4F" name="Nacionalidad_Idioma_Jugador_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:22:39 UTC</createdTime>
+<generatorID>42FF4557-6780-36DB-C8F1-777D052CC279</generatorID>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E64D6AB-BDC7-C4E8-2F8F-36EEF166A502"/>
+<colUsage columnID="6DB5080E-0DC7-EBDB-3A5D-3F904717DC80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

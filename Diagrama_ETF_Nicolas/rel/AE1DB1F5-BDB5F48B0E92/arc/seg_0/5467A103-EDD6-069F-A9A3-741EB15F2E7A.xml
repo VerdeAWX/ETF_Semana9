@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="5467A103-EDD6-069F-A9A3-741EB15F2E7A" name="FKArc_1">
+<createdBy>carlo</createdBy>
+<createdTime>2026-10-12 02:18:56 UTC</createdTime>
+<ownerDesignName>Diagrama_ETF_Nicolas</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>285D71F0-6C2D-3C15-F475-BB7B43B8F95E</table>
+<fkeys>
+<fkeyID>F886A9AC-A60D-AA70-4F63-A9EB97D721BF</fkeyID>
+<fkeyID>F9C54B1D-7A8E-1582-2CA9-A4B948ED9BBA</fkeyID>
+</fkeys>
+</FKArc>
